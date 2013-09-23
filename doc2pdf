@@ -3,5 +3,5 @@
 DIR=$(pwd)
 DOC=$DIR/$1
                                                                                
-/usr/bin/soffice -invisible "macro:///Standard.Module1.ConvertWordToPDF($DOC)"
+/usr/bin/soffice --invisible "macro:///Standard.Module1.ConvertWordToPDF($DOC)"
 
